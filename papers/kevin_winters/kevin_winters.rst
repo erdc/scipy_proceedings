@@ -1,79 +1,62 @@
 :author: Kevin Winters
-:email: Kevin.Winters@erdc.dren.mil
+:email: Kevin.D.Winters@usace.army.mil
 :institution: US Army Engineer Research and Development Center
 :corresponding:
 
-:author: Mark Anthony
-:email: mark37@rome.it
-:institution: Egyptian Embassy, S.P.Q.R.
+:author: Dr. Scott Christensen
+:email: Scott.D.Christensen@usace.army.mil
+:institution: US Army Engineer Research and Development Center
+:corresponding:
 
-:author: Jarrod Millman
-:email: millman@rome.it
-:institution: Egyptian Embassy, S.P.Q.R.
-:institution: Yet another place, S.P.Q.R.
-:equal-contributor:
+:author: Dr. Kimberly Pevey
+:email: Kimberly.C.Pevey@usace.army.mil
+:institution: US Army Engineer Research and Development Center
+:corresponding:
 
-:author: Brutus
-:email: brutus@rome.it
-:institution: Unaffiliated
-:equal-contributor:
+:author: Aaron Valoroso
+:email: Aaron.A.Valoroso@usace.army.mil
+:institution: US Army Engineer Research and Development Center
 
-:video: http://www.youtube.com/watch?v=dhRUe-gz690
+:author: Marvin Brown
+:email: Marvin.S.Brown@usace.army.mil
+:institution: US Army Engineer Research and Development Center
 
-------------------------------------------------
-A Numerical Perspective to Terraforming a Desert
-------------------------------------------------
+----------------------------------------------------------------------
+EarthSim: Flexible Environmental Simulation Workflows – One Year Later
+----------------------------------------------------------------------
 
 .. class:: abstract
 
-   Motivation:
+   Traditionally, the primary method of performing environmental simulation requires a combination
+   of heavy proprietary desktop tools that do not interoperate well with each other. The process
+   of building and running environmental simulations using these tools is a time‑consuming process
+   and lacks the flexibility needed to provide basic predictions of environmental conditions
+   quickly for any region of the globe. EarthSim, introduced at SciPy2018, is a new flexible
+   approach to environmental simulation. Streamlining simulations using lightweight modules has
+   been an audacious effort, and in the past year we have improved the following key capabilities:
+   gathering data from local and web services, numerical model domain generation, model
+   parameterization, model execution on dedicated High Performance Computing (HPC) clusters, and
+   results analyses. Visualization is also a key aspect of all of these steps. The goal of these
+   modular capabilities is to rapidly develop custom modeling workflows that can easily be
+   presented in dashboards and deployed as web apps.
 
-   Traditionally, the p rimary method of performing environmental simulation requires a
-   combination of heavy proprietary desktop tools that do not interoperate well with each
-   other. The process of building and running environmental simulations using these tools is
-   a time‑consuming process and lacks the flexibility needed to provide basic predictions of
-   environmental conditions quickly for any region of the globe.
-   EarthSim, introduced at SciPy2018, is a new flexible approach to environmental simulation.
-   Streamlining simulations using lightweight modules has been an audacious effort, and in
-   the past year we have improved the following key capabilities: gathering data from local
-   and web services, numerical model domain generation, model parameterization, model
-   execution on dedicated High Performance Computing (HPC) clusters, and results analyses.
-   Visualization is also a key aspect of all of these steps. The goal of these modular
-   capabilities is to rapidly develop custom modeling workflows that can easily be presented
-   in dashboards and deployed as web apps.
+   To achieve the environmental simulation dashboarding capabilities described above, we have
+   created a coordinating project called EarthSim where we have developed and prototyped new
+   capabilities. As these capabilities have matured, we have moved them into existing open source
+   software packages or, when necessary, created new ones.
 
-   Methods:
+   We have demonstrated the effectiveness of these new capabilities by creating hydrodynamic
+   modeling workflows using the Adaptive Hydraulics (AdH) simulator in Jupyter Notebooks and then
+   deploying them as Bokeh web apps.
 
-   To achieve the environmental simulation dashboarding capabilities described above, we
-   have created a coordinating project called EarthSim where we have developed and
-   prototyped new capabilities. As these capabilities have matured, we have moved them into
-   existing open source software packages or, when necessary, created new ones. The
-   following projects have seen extensive improvements as part of this effort:
-
-   • EarthSim – for interactive compound geometric object drawing
-   • Panel – for support for widget‑only workflow pipelines (sequential dashboard steps)
-   • Param – for parameter dependency
-   • HoloViews, GeoViews, Datashader – for efficient visualizations
-   • Bokeh framework – for flexibility in deploying workflows in various modes, including embedded in web pages
-   • XmsMesh – for triangula ted unstructured mesh generation and manipulation
-   • pyUIT – for HPC job submission
-
-   Results:
-
-   We have demonstrated the effectiveness of these new capabilities by creating
-   hydrodynamic modeling workflows using the Adaptive Hydraulics (AdH) simulator in Jupyter
-   Notebooks and then deploying them as Bokeh web apps.
-
-   Conclusion:
-
-   Our environment al simulation dashboards have demonstrated that this modular approach
-   can successfully replace monolithic desktop solutions.
+   Our environmental simulation dashboards have demonstrated that this modular approach can
+   successfully replace monolithic desktop solutions.
 
 .. class:: keywords
 
    environmental simulation, hydrodynamics, workflows, dashboard, visualization, parameterization, HPC
 
-Introduction (1/2 page)
+Introduction (1/2 page) (kw)
 ------------
 
 Dashboard Tools Background [Abstract Motivation]
@@ -96,19 +79,29 @@ Introduce Riverine Workflow Example
 Methods (5 pages)
 ------------
 
-Annotation
+The following projects have seen extensive improvements as part of this effort:
+   • EarthSim – for interactive compound geometric object drawing
+   • Panel – for support for widget‑only workflow pipelines (sequential dashboard steps)
+   • Param – for parameter dependency
+   • HoloViews, GeoViews, Datashader – for efficient visualizations
+   • Bokeh framework – for flexibility in deploying workflows in various modes, including embedded in web pages
+   • XmsMesh – for triangula ted unstructured mesh generation and manipulation
+   • pyUIT – for HPC job submission
+
+
+Annotation (kp)
 ============
 
-Domain Generation
+Domain Generation (kp)
 ============
 
-Model Attribution
+Model Attribution (kp)
 ============
 
-Model Execution
+Model Execution (sc)
 ============
 
-Visualization & Analysis
+Visualization & Analysis (sc)
 ============
 
 
